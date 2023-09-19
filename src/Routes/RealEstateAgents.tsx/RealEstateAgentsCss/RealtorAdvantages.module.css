@@ -1,0 +1,62 @@
+.realtorAdvantages h3 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.realtorAdvantages :is(a, a:active, a:visited) {
+  width: fit-content;
+  font-size: 75%;
+  color: #1e61d9;
+}
+.realtorAdvantages :is(a:hover, a:focus) {
+  color: #333;
+  text-decoration: underline;
+}
+.realtorAdvantages p {
+  color: #333333;
+  font-weight: 100;
+}
+.realtorAdvantages img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.realtorAdvantages .container {
+  display: flex;
+  align-items: center;
+}
+.realtorAdvantages .box {
+  width: 50%;
+  height: 450px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.realtorAdvantages .container:nth-child(2) .box:first-child {
+  padding-right: 5%;
+}
+.realtorAdvantages .container:nth-child(3) .box:last-child {
+  padding-left: 5%;
+}
+
+@media (max-width: 900px) {
+  .realtorAdvantages {
+    font-size: 100% !important;
+  }
+  .realtorAdvantages .box {
+    height: 300px;
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .realtorAdvantages .container {
+    flex-direction: column;
+  }
+  .realtorAdvantages .container:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .realtorAdvantages .box {
+    width: 90%;
+    justify-content: space-evenly;
+  }
+}

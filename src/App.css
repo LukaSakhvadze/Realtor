@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,*::before,*::after {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.App{
+  font-family: 'Roboto', sans-serif;
+  font-size:90%;
+}
+.App li{
+  list-style-type: none;
+}
+.App a{
+  text-decoration: none;
+}
+.App :is(a:hover,a:focus){
+  cursor: pointer;
+}
+.App .off{
+  display:none;
+}
+.slick-dots li button:before{
+  font-size: 15px !important;
+}

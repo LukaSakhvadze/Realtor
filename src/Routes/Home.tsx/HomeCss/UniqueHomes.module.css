@@ -1,0 +1,49 @@
+.uniqueHomes{
+    width:100%;
+    height:31rem;
+    margin-top:3%;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:120%;
+    background: rgba(0,0,0,0.5) url(../../../Images/uniqueHomes.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+}
+.uniqueHomes div{
+    position: absolute;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap:0.5rem;
+}
+.uniqueHomes div :is(a,a:active,a:visited){
+    color:white;
+    border:1px solid white;
+    border-radius:25px;
+    display: inline-block;
+    padding:1rem 1.5rem;
+}
+.uniqueHomes div :is(a:hover,a:active){
+    background-color: white;
+    color:black;
+    transition: all 0.25s ease-in-out;
+}
+.uniqueHomes h2{
+    text-align: center;
+}
+.uniqueHomes h3:nth-child(1){
+    margin-bottom:10%;
+}
+.uniqueHomes h3:nth-child(4){
+    margin-top:15%;
+}
+
+@media(max-width:600px){
+    .uniqueHomes{
+        margin-top:10%;
+    }
+}

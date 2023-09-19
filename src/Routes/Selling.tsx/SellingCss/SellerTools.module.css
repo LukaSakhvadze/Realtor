@@ -1,0 +1,29 @@
+.sellerTools .container {
+  width: 1248px;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+.sellerTools .container h3 {
+  font-weight: 100;
+  margin-top: 2%;
+}
+.sellerTools :is(a, a:active, a:visited) {
+  display: inline-block;
+  color: #37c;
+  text-decoration: underline;
+}
+.sellerTools :is(a:hover, a:focus) {
+  cursor: pointer;
+  color: #1a1c8f;
+}
+
+@media(max-width:1400px){
+  .sellerTools .container {
+    width: 960px;
+  }
+}
+@media(max-width:1400px){
+  .sellerTools .container {
+    width: 90%;
+  }
+}

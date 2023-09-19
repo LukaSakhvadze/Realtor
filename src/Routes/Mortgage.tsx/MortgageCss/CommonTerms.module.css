@@ -1,0 +1,38 @@
+.CommonTerms {
+  width: 1000px;
+  margin: 0 auto 5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 130%;
+  color: rgb(43, 43, 43);
+}
+.CommonTerms .container{
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.CommonTerms .box{
+  display:flex;
+  flex-flow:column wrap;
+  gap:1rem;
+}
+.CommonTerms .box p{
+  font-size:90%;
+}
+.CommonTerms .box p:first-child{
+  font-weight: 600;
+  border-left:4px solid red;
+  padding-left:1rem
+}
+
+@media (max-width: 1100px) {
+  .CommonTerms {
+    width: 800px;
+  }
+}
+@media (max-width: 900px) {
+  .CommonTerms {
+    width: 90%;
+  }
+}

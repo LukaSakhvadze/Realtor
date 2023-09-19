@@ -1,0 +1,118 @@
+.sellingOffers{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1248px;
+  margin:0 auto;
+}
+.sellingOffers .containersList{
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+.sellingOffers .container {
+  width: 35%;
+  height: 30rem;
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 7px;
+}
+.sellingOffers .container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
+}
+.sellingOffers .box .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+  gap:10px;
+}
+.sellingOffers div {
+  display: flex;
+  justify-content: center;
+}
+.sellingOffers .box h2 {
+  letter-spacing: 2px;
+  text-align: center;
+}
+.sellingOffers .box img {
+  width: 15rem;
+  height: 10rem;  
+}
+.sellingOffers .box .upnestImg {
+  width: 6rem;
+  height:2rem;
+}
+.sellingOffers .box p {
+  margin-top: 5%;
+  padding: 0 5%;
+  font-size: 110%;
+  color: rgb(43, 43, 43);
+}
+.sellingOffers :is(a, a:active, a:visited) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(226, 9, 9);
+  width: 90%;
+  height:34px;
+  border-radius: 25px;
+  text-align: center;
+}
+.sellingOffers :is(a:hover, a:focus) {
+  background-color: rgb(168, 16, 16);
+  transition: background-color ease-in-out 0.25s;
+}
+.sellingOffers .container:nth-child(2) :is(a, a:active, a:visited) {
+  background-color: transparent;
+  color: rgb(226, 9, 9);
+  border: 1px solid rgb(226, 9, 9);
+}
+.sellingOffers .container:nth-child(2) :is(a:hover, a:focus) {
+  background-color: rgb(235, 234, 234);
+  border-color: rgb(235, 234, 234);
+  color: black;
+  transition: all ease-in-out 0.25s;
+}
+.sellingOffers .sellingTime{
+  margin-top:1%;
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 7px;
+  width:1248px;
+  cursor: pointer;
+}
+.sellingOffers .sellingTime img{
+  width:99%;
+}
+
+@media(max-width:1400px){
+  .sellingOffers{
+    width: 960px;
+  }
+  .sellingOffers .sellingTime{
+    width: 100%;
+  }
+}
+@media(max-width:1000px){
+  .sellingOffers{
+    width:90%;
+  }
+  .sellingOffers .containersList{
+    flex-direction: column;
+  }
+  .sellingOffers .container{
+    width:100%;
+  }
+  .sellingOffers .container .box{
+    width:100%;
+  }
+  .sellingOffers :is(a, a:active, a:visited) {
+    height:50px;
+  }
+}
+

@@ -1,0 +1,12 @@
+.mainContainer{
+    width: 1300px;
+    margin:3rem auto 0 auto;
+    font-size:160%;
+}
+
+@media (max-width: 1400px) {
+    .mainContainer {
+      width: 90%;
+    }
+}
+  

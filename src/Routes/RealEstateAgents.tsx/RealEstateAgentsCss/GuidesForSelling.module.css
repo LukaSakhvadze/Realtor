@@ -1,0 +1,28 @@
+.guidesForSellingHome{
+    width:1300px;
+    margin:0 auto
+}
+.guidesForSellingHome .container{
+    width:50rem;
+    margin:0
+}
+.guidesForSellingHome .box{
+    height:300px;
+    text-indent:0
+}
+
+@media (max-width: 1400px) {
+    .guidesForSellingHome {
+      width: 90%;
+    }
+}
+@media (max-width: 950px) {
+    .guidesForSellingHome .container{
+        width:25rem;
+    }
+}
+@media (max-width: 500px) {
+    .guidesForSellingHome .container{
+        width:17rem;
+    }
+}

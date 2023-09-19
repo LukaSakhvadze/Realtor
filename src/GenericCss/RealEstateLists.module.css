@@ -1,0 +1,133 @@
+.realEstateLists .container {
+  width: 90rem;
+  margin: 5% auto 0 auto;
+  padding-bottom: 1rem;
+}
+.realEstateLists :is(a, a:visited) {
+  display: inline-block;
+  margin: 0.5% 0 0 0;
+  color: rgb(36, 119, 226);
+}
+.realEstateLists :is(a:focus, a:hover, a:active) {
+  text-decoration: underline;
+  color: rgb(22, 84, 165);
+}
+.realEstateLists .heading {
+  margin-left: 10px;
+}
+.realEstateLists .boxList {
+  padding: 0 10px;
+}
+.realEstateLists .box {
+  height: 370px;
+  box-shadow: 1px 1px 5px rgb(173, 169, 169);
+  text-indent: 3%;
+  cursor: pointer;
+  width: 98%;
+  border-radius: 10px 10px 5px 5px;
+  margin: 5% 0;
+}
+.realEstateLists .box:hover {
+  box-shadow: 1px 1px 10px 1px rgb(173, 169, 169);
+}
+.realEstateLists .status {
+  position: absolute;
+  top: 0;
+  margin-top: 25px;
+  margin-left: 15px;
+  background-color: rgb(26, 82, 184);
+  color: white;
+  padding: 3px 5px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.realEstateLists img {
+  width: 100.2%;
+  margin-bottom: 2%;
+  height: 15rem;
+  border-radius: 5px 5px 0px 0px;
+}
+.realEstateLists .box .info {
+  line-height: 1.5;
+}
+.realEstateLists .box .info p {
+  color: rgb(43, 43, 43);
+  font-weight: 100;
+}
+.realEstateLists .box .info .area {
+  gap: 1rem;
+  margin-left: 3%;
+  line-height: 1.5;
+}
+.realEstateLists .box .info .areaInfo {
+  display: flex;
+  gap: 10%;
+}
+.realEstateLists .box .info .areaInfo span {
+  font-weight: 900;
+}
+.realEstateLists .box .info div {
+  display: flex;
+  align-items: center;
+  text-indent: 0;
+  margin-left: 0;
+  line-height: 0;
+  gap: 0.2rem;
+}
+.realEstateLists .box .info div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-indent: 0;
+  margin-left: 3%;
+  gap: 0.2rem;
+}
+.realEstateLists svg {
+  width: 15px;
+  height: 15px;
+  color: rgb(54, 179, 150);
+}
+.oneLineList .box {
+  height: 300px;
+  text-indent: 0;
+  text-align: center;
+}
+.oneLineList .box p {
+  margin: 0 3%;
+}
+
+@media (max-width:1500px){
+  .realEstateLists .container {
+    width: 70rem;
+  }
+}
+@media (max-width:1200px){
+  .realEstateLists .container {
+    width: 60rem;
+  }
+}
+@media (max-width:1050px){
+  .realEstateLists .container {
+    width: 50rem;
+  }
+}
+@media (max-width:850px){
+  .realEstateLists .container {
+    width: 40rem;
+  }
+}
+@media (max-width:700px){
+  .realEstateLists .container {
+    width: 30rem;
+  }
+}
+@media (max-width:550px){
+  .realEstateLists .container {
+    width: 20rem;
+  }
+}
+@media (max-width:400px){
+  .realEstateLists .container {
+    width: 15rem;
+  }
+}

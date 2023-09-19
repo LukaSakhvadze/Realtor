@@ -1,0 +1,40 @@
+.realtorBenefits h2 {
+  letter-spacing: 1px;
+}
+.realtorBenefits .benefitsList {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.realtorBenefits .benefitsList .box {
+  display: flex;
+  gap: 1rem;
+}
+.realtorBenefits :is(a, a:active, a:visited) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(217, 34, 40);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(217, 34, 40);
+  width: 7rem;
+  height: 34px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 70%;
+}
+.realtorBenefits :is(a:hover, a:focus) {
+  border: transparent;
+  background-color: #eeecec;
+}
+.realtorBenefits .readMore {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+@media (max-width: 950px) {
+  .realtorBenefits .benefitsList {
+    flex-direction: column;
+  }
+}

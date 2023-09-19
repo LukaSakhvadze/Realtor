@@ -1,0 +1,66 @@
+.realEstateLists h1 {
+  margin-bottom: 3%;
+}
+.realEstateLists .availEntry {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 89rem;
+  margin: 2% auto 0 auto;
+  padding: 0.5% 0.5%;
+  border: 1px solid rgb(219, 217, 217);
+}
+.realEstateLists .availEntry div {
+  width: 2rem;
+  height: 20.47px;
+}
+.realEstateLists .availEntry img {
+  width: 100%;
+  height: 100%;
+}
+.realEstateLists .availEntry p {
+  font-size: 110%;
+}
+.realEstateLists .container:last-child {
+  margin-bottom: 5%;
+}
+
+@media (max-width: 1500px) {
+  .realEstateLists .availEntry {
+    width: 69rem;
+    padding: 1% 1%;
+  }
+}
+@media (max-width: 1200px) {
+  .realEstateLists .availEntry {
+    width: 59rem;
+  }
+}
+@media (max-width: 1050px) {
+  .realEstateLists .availEntry {
+    width: 49rem;
+  }
+}
+@media (max-width: 850px) {
+  .realEstateLists .availEntry {
+    width: 39rem;
+  }
+}
+@media (max-width: 700px) {
+  .realEstateLists .availEntry {
+    width: 29rem;
+  }
+  .realEstateLists .container:last-child {
+    margin-bottom: 7%;
+  }
+}
+@media (max-width: 550px) {
+  .realEstateLists .availEntry {
+    width: 19rem;
+  }
+}
+@media (max-width: 400px) {
+  .realEstateLists .availEntry {
+    width: 14rem;
+  }
+}

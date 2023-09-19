@@ -1,0 +1,73 @@
+.myHome {
+  width: 80rem;
+  margin: 4rem auto;
+  font-size: 120%;
+}
+.myHome h2 {
+  font-size: 220%;
+}
+.myHome h3 {
+  font-size: 150%;
+}
+.myHome .homeField {
+  height: 20rem;
+  border: 1px dashed rgb(202, 202, 202);
+  border-radius: 7px;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.myHome .homeField img {
+  width: 5rem;
+  height: 5rem;
+}
+.myHome .homeField p {
+  color: rgb(117, 117, 117);
+  font-weight: 600;
+}
+.myHome .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+.myHome .box {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  gap: 1rem;
+  text-align: center;
+}
+.myHome img {
+  width: 100%;
+}
+
+@media (max-width: 1500px) {
+  .myHome {
+    width: 60rem;
+  }
+  .myHome .box {
+    width: 20rem;
+  }
+}
+@media (max-width: 1000px) {
+  .myHome {
+    width: 90%;
+  }
+}
+@media (max-width: 750px) {
+  .myHome .container {
+    gap: 3rem;
+  }
+  .myHome .box {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .myHome .homeField {
+    flex-direction: column;
+  }
+}

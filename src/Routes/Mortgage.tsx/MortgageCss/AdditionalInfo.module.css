@@ -1,0 +1,28 @@
+.additionalInfo {
+  background-color: #f7f7f7;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 90%;
+  color: rgb(43, 43, 43);
+}
+.additionalInfo p {
+  padding: 1rem 0;
+  margin: 0 auto;
+  width: 72rem;
+}
+.additionalInfo :is(a, a:active, a:visited) {
+  color: #37c;
+}
+.additionalInfo :is(a:hover, a:focus) {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #1a1c8f;
+}
+@media (max-width: 1330px) {
+    .additionalInfo p {
+      width: 95%;
+    }
+    .additionalInfo{
+        font-size:100%
+    }
+}

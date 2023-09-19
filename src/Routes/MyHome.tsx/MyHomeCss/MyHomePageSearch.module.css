@@ -1,0 +1,21 @@
+.myHomePageSearch {
+height: 25rem;
+  background-image: url("https://static.rdc.moveaws.com/images/myhome-web/Hero/mh-hero-1440.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.myHomePageSearch .container{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 7%;
+    width:50rem;
+}
+.myHomePageSearch h1 {
+  font-size: 300%;
+}

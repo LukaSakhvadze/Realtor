@@ -1,0 +1,37 @@
+.infoForRenter {
+  width: 100%;
+  height: 31rem;
+  margin-top: 3%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 120%;
+  background: rgba(0, 0, 0, 0.5) url(../../../Images/advicesForRenters.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: center;
+}
+.infoForRenter div {
+  position: absolute;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  gap: 2rem;
+  line-height: 1.5;
+}
+.infoForRenter div :is(a, a:active, a:visited) {
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+}
+@media (max-width: 1060px) {
+  .infoForRenter div {
+    width: 80%;
+  }
+}

@@ -1,0 +1,96 @@
+.articles {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 130%;
+  color: rgb(43, 43, 43);
+}
+.articles svg {
+  width: 1.5rem;
+  height: 100%;
+  fill: currentColor;
+}
+.articles abbr {
+  text-decoration: none;
+  font-size: 90%;
+}
+.articles :is(a, a:active, a:visited) {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #1e61d9;
+  text-decoration: underline;
+}
+.articles :is(a:focus, a:hover) {
+  color: #333;
+}
+.articles h2,
+h3 {
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.articles h3 {
+  margin: 1rem 0;
+}
+.articles .info {
+  margin-top: 1rem;
+}
+.articles p {
+  font-weight: 600;
+  font-size: 90%;
+}
+.articles .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 3rem 0;
+}
+.articles .container .articleLists {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.articles .container .articlesList {
+  display: flex;
+  flex-flow: wrap column;
+  gap: 1rem;
+}
+.articles .moreArticles {
+  margin: -1.5rem 0 2rem 0;
+}
+.articles .moreArticles :is(a, a:active, a:visited) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(217, 34, 40);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(217, 34, 40);
+  width: 8rem;
+  height: 34px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 80%;
+}
+.articles .moreArticles :is(a:hover, a:focus) {
+  border: transparent;
+  background-color: #eeecec;
+}
+
+@media (max-width: 1100px) {
+  .articles {
+    width: 800px;
+  }
+}
+@media (max-width: 900px) {
+  .articles {
+    width: 90%;
+  }
+  .articles .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
